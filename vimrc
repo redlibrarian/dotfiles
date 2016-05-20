@@ -34,6 +34,8 @@ Plugin 'skwp/vim-rspec'
 Plugin 'tpope/vim-surround'
 Plugin 'ntpeters/vim-better-whitespace'
 Plugin 'altercation/vim-colors-solarized'
+Plugin 'parkr/vim-jekyll'
+Plugin 'tpope/vim-fugitive'
 
 call vundle#end()
 filetype plugin indent on
