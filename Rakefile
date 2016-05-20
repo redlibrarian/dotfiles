@@ -1,9 +1,9 @@
 task :default do
   Dir.foreach(Dir.pwd) do |f|
     next if f == "." || f == ".." || f == ".git" || f == "Rakefile"
-    f = ".#{f}"
-    File.delete(File.expand_path(f, "~")) if File.exists? File.expand_path(f, "~")
-    File.symlink(File.expand_path(f, "."), File.expand_path(f, "~"))
+    dotf = ".#{f}"
+    File.delete(File.expand_path(dotf, "~")) if File.exists? File.expand_path(dotf, "~")
+    File.symlink(File.expand_path(f, "."), File.expand_path(dotf, "~")) unless File.symlink? File.expand_path(dotf, "~")
   end
 
    begin
