@@ -21,12 +21,6 @@ if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
 fi
 
-GOPATH=~/projects/go
-GOROOT=$GOPATH/src
-PATH=$PATH:$GOPATH/bin
-
-export GOPATH
-export GOROOT
 source ~/.git-prompt.sh
 source ~/.rvm/scripts/rvm
 
