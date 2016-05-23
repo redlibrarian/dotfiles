@@ -45,5 +45,8 @@ syntax on
 set number
 highlight ExtraWhitespace ctermbg=red
 set background=dark
+let g:solarized_visibility = "high"
+let g:solarized_contrast = "high"
+let g:solarized_termcolors = 256
 colorscheme solarized
 set encoding=utf8
