@@ -5,4 +5,4 @@ source ~/.rvm/scripts/rvm
 
 JAVA_HOME=/usr/bin/java
 
-
+alias tmux='tmux -2'

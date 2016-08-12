@@ -1,6 +1,11 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_cnt =9
 let g:netrw_dirhist_1='/home/asdp/.rvm/gems/ruby-2.2.2/gems/blacklight_advanced_search-5.1.4/app/views/blacklight_advanced_search'
 let g:netrw_dirhist_2='/home/asdp/projects/NEOSDiscovery/app/views/catalog'
 let g:netrw_dirhist_3='/home/asdp/projects/NEOSDiscovery/config/locales'
 let g:netrw_dirhist_4='/home/asdp/dotfiles/.git'
+let g:netrw_dirhist_5='/home/asdp/exercism/python/word-count'
+let g:netrw_dirhist_6='/home/asdp/projects/discovery/config/SolrMarc'
+let g:netrw_dirhist_7='/home/asdp/projects/discovery/config/SolrMarc/index_scripts'
+let g:netrw_dirhist_8='/home/asdp/.rvm/gems/ruby-2.2.2/gems/blacklight-5.14.0'
+let g:netrw_dirhist_9='/home/asdp/projects/discovery/app/models'

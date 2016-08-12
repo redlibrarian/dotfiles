@@ -38,6 +38,8 @@ Plugin 'parkr/vim-jekyll'
 Plugin 'tpope/vim-fugitive'
 Plugin 'guns/vim-clojure-static'
 Plugin 'kien/rainbow_parentheses.vim'
+Plugin 'junegunn/goyo.vim'
+Plugin 'junegunn/limelight.vim'
 
 call vundle#end()
 filetype plugin indent on
