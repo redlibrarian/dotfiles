@@ -36,10 +36,12 @@ Plugin 'ntpeters/vim-better-whitespace'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'parkr/vim-jekyll'
 Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-fireplace'
 Plugin 'guns/vim-clojure-static'
 Plugin 'kien/rainbow_parentheses.vim'
 Plugin 'junegunn/goyo.vim'
 Plugin 'junegunn/limelight.vim'
+Plugin 'vimwiki/vimwiki'
 
 call vundle#end()
 filetype plugin indent on
@@ -54,3 +56,5 @@ let g:solarized_contrast = "high"
 let g:solarized_termcolors = 256
 colorscheme solarized
 set encoding=utf8
+set omnifunc=syntaxcomplete#Complete
+let g:vimwiki_list = [{'path': '~/vimwiki/', 'syntax': 'markdown', 'ext': '.md'}]
