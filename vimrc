@@ -36,10 +36,12 @@ Plugin 'ntpeters/vim-better-whitespace'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'parkr/vim-jekyll'
 Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-fireplace'
 Plugin 'guns/vim-clojure-static'
 Plugin 'kien/rainbow_parentheses.vim'
 Plugin 'junegunn/goyo.vim'
 Plugin 'junegunn/limelight.vim'
+
 
 call vundle#end()
 filetype plugin indent on
