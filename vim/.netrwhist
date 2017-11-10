@@ -1,7 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/home/asdp/projects/discovery/config/initializers'
-let g:netrw_dirhist_2='/home/asdp/.rvm/gems/ruby-2.2.1/bundler/gems/blacklight_eds_gem-ac5cac5e927c/app/controllers/blacklight_eds'
-let g:netrw_dirhist_3='/home/asdp/projects/NEOSDiscovery/app/controllers'
-let g:netrw_dirhist_4='/home/asdp/projects/discovery/app/helpers/blacklight'
-let g:netrw_dirhist_5='/home/asdp/projects/NEOSDiscovery/config/locales'
