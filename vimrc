@@ -9,6 +9,8 @@ set expandtab
 set list
 set backspace=indent,eol,start
 
+let g:tex_flavor = "latex"
+
 set listchars=""
 set listchars=tab:\ \
 set listchars+=trail:.
@@ -22,7 +24,6 @@ set smartcase
 
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
-
 Plugin 'gmarik/Vundle.vim'
 Plugin 'tComment'
 Plugin 'tpope/vim-rails'
@@ -42,6 +43,7 @@ Plugin 'kien/rainbow_parentheses.vim'
 Plugin 'junegunn/goyo.vim'
 Plugin 'junegunn/limelight.vim'
 Plugin 'vimwiki/vimwiki'
+Plugin 'lervag/vimtex'
 
 
 call vundle#end()
@@ -51,11 +53,13 @@ nnoremap <leader><leader> <c-^>
 syntax on
 set number
 highlight ExtraWhitespace ctermbg=red
-set background=dark
-let g:solarized_visibility = "high"
-let g:solarized_contrast = "high"
-let g:solarized_termcolors = 256
-colorscheme solarized
+" set background=dark
+" let g:solarized_visibility = "high"
+" let g:solarized_contrast = "high"
+" let g:solarized_termcolors = 256
+colo zellner
 set encoding=utf8
 set omnifunc=syntaxcomplete#Complete
 let g:vimwiki_list = [{'path': '~/vimwiki/', 'syntax': 'markdown', 'ext': '.md'}]
+
+set termguicolors
